@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "request": "launch",
+      "name": "現在のtsを起動",
+      "type": "node",
+      "program": "${file}",
+      "cwd": "${fileDirname}",
+      "runtimeExecutable": "deno.exe",
+      "runtimeArgs": ["run", "--unsafely-ignore-certificate-errors"],
+      "internalConsoleOptions": "openOnSessionStart"
+    }
+  ]
+}
