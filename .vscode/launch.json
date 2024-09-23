@@ -8,7 +8,10 @@
       "program": "${file}",
       "cwd": "${fileDirname}",
       "runtimeExecutable": "deno.exe",
-      "runtimeArgs": ["run", "--unsafely-ignore-certificate-errors"],
+      "runtimeArgs": [
+        "run",
+        "--unstable-ffi"
+      ],
       "internalConsoleOptions": "openOnSessionStart"
     }
   ]
